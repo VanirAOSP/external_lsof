@@ -60,6 +60,7 @@ LOCAL_CFLAGS := -Os -g -W -Wall \
 	-DHASIPv6 \
 	-D_FILE_OFFSET_BITS=32 \
 	-DHAS_STRFTIME \
+	-fno-strict-aliasing \
 	-DLSOF_VSTR=\"2.6.32-androidlol\"
 
 LOCAL_MODULE := lsof
@@ -90,6 +91,7 @@ LOCAL_CFLAGS := -Os -g -W -Wall \
 	-DHASIPv6 \
 	-D_FILE_OFFSET_BITS=32 \
 	-DHAS_STRFTIME \
+	-fno-strict-aliasing \
 	-DLSOF_VSTR=\"2.6.32-androidlol\"
 
 LOCAL_MODULE := utility_lsof
